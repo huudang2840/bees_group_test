@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+.btn_hover_date,
+.email {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.btn_action {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 10px;
+  align-items: center;
+}
+
+.btn_action > * {
+  cursor: pointer;
+}
+.header_action {
+  display: flex;
+  justify-content: flex-end;
+}
+.checkbox_name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.status {
+  border: 2px solid gray;
+  border-radius: 20px;
+  color: gray;
+  text-align: center;
+  width: 80px;
+  padding: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.status:hover {
+  border: 2px solid rgb(172, 168, 168);
+  color: rgb(172, 168, 168);
+}
+
+.active {
+  border: 2px solid rgb(44, 145, 44);
+  color: white;
+  background-color: rgb(44, 145, 44);
+}
+
+.active:hover {
+  border: 2px solid rgb(33, 177, 33);
+  color: white;
+  background-color: rgb(33, 177, 33);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.page-link {
+  color: black !important;
+}
+
+.pagination span {
+  font-weight: bold;
+}
+
+.table_container {
+  min-height: 80vh;
+}
+.page-item + .active {
+  border: 1px solid gray;
+  background-color: transparent;
+}
+.page-item + .active > .page-link {
+  border: 1px solid gray !important;
+  background-color: transparent;
+}
